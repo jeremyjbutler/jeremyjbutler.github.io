@@ -1,6 +1,6 @@
 AUTHOR = 'Jeremy J Butler'
 SITENAME = 'Devop Foo'
-SITEURL = ""
+SITEURL = "jeremyjbutler.github.io"
 
 PATH = "content"
 
