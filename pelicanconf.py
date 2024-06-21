@@ -17,16 +17,16 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
+    ("Devop Foo", "https://devop.foo/"),
+    ("Liftingcloud", "https://www.liftingcloud.org/"),
+    ("Github", "https://github.com/jeremyjbutler"),
+    ("LinkedIn", "www.linkedin.com/in/jeremy-butler-231bb3102/"),
 )
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("Linkedin", "www.linkedin.com/in/jeremy-butler-231bb3102"),
+    ("Github", "https://github.com/jeremyjbutler"),
 )
 
 DEFAULT_PAGINATION = 10
