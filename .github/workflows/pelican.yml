@@ -4,9 +4,10 @@ on:
     branches: ["content"]
   workflow_dispatch:
 jobs:
-  Deploy:
-    uses: jeremyjbutler/jeremyjbutler.github.io/.github/workflows/pelican.yml@main
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: justgoodin/pelican-to-github-pages@v1.0.2
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
